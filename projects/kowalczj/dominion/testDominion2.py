@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 13 15:42:42 2015
+Refactored on Sun Jan 12 14:10:39 2020
 
-@author: tfleck
+@author: kowalczj
+
+original author: tfleck
 """
 
 import Dominion
