@@ -20,7 +20,7 @@ def main():
     """
     player_names = ["Susan", "*Annie", "*Roger", "*Ben", "*Carla"]
     players = get_players(player_names)
-    supply = get_supply(num_players=len(player_names))
+    supply = get_supply(num_players=len(player_names) - 1)
     supply_order = get_supply_order()
     trash = get_trash()
     play(supply, supply_order, players, trash)
