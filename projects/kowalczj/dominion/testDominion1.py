@@ -18,7 +18,7 @@ def main():
     """ Function to get game data structures from utility functions
         and play the game
     """
-    player_names = ["Annie", "*Ben", "*Carla"]
+    player_names = ["*Annie", "*Ben", "*Carla"]
     players = get_players(player_names)
     supply = get_supply(num_players=len(player_names))
     supply_order = get_supply_order()
